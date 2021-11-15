@@ -12,7 +12,7 @@ const loginScreen = () => {
         >
 
             <View style={styles.titleContainer}>
-                <Text style={styles.title}>Ella's Fast Food</Text>
+                <Text style={styles.title}>Ella's Eatery</Text>
             </View>
 
             <View style={styles.inputcontainer}>

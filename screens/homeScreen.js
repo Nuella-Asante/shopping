@@ -13,12 +13,12 @@ const homeScreen = () => {
 
             <View style={styles.iconContainer}>
                 <Ionicons name="person-circle-outline" size={32} color="#4d6a6d" onPress={()=> {navigation.navigate("Log in")}} />
-                <Ionicons name="cart-outline" size={32} color="#4d6a6d" onPress={()=> {navigation.navigate("")}}/>
+                <Ionicons name="cart-outline" size={32} color="#4d6a6d" onPress={()=> {navigation.navigate("cart")}}/>
             </View>
 
 
             <View style={styles.titleContainer}>
-                <Text style={styles.title}>Ella's Fast Food</Text>
+                <Text style={styles.title}>Ella's Eatery</Text>
             </View>
 
             <View style={styles.searchContainer}>
