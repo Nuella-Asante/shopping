@@ -41,7 +41,7 @@ const homeScreen = () => {
                 <View style={styles.itemWrapper} >
                     <View style={styles.items}>
                         <View style={styles.itemImg}>
-                            
+                         <Image source={require('../img/b2.jpg')}  style={styles.himg}/>
                         </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Beef Burgers</Text>
@@ -54,7 +54,9 @@ const homeScreen = () => {
                         </View>
                     </View>
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/pexels-marcelo-oliveira-santana-6697455.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Pepperoni Pizza</Text>
                             <View style={styles.priceBtn}>
@@ -68,7 +70,9 @@ const homeScreen = () => {
                 </View>        
                 <View style={styles.itemWrapper} >
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/b3.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Margherita Pizza</Text>
                             <View style={styles.priceBtn}>
@@ -80,7 +84,9 @@ const homeScreen = () => {
                         </View>
                     </View>
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/pexels-daria-shevtsova-1260968.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Elk Burgers</Text>
                             <View style={styles.priceBtn}>
@@ -94,7 +100,9 @@ const homeScreen = () => {
                 </View>        
                 <View style={styles.itemWrapper} >
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/pexels-nikita-krasnov-6006599.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Turkey Burgers</Text>
                             <View style={styles.priceBtn}>
@@ -106,7 +114,9 @@ const homeScreen = () => {
                         </View>
                     </View>
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/pexels-alena-shekhovtcova-6941009.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>BBQ Chicken Pizza.</Text>
                             <View style={styles.priceBtn}>
@@ -120,7 +130,9 @@ const homeScreen = () => {
                 </View>        
                 <View style={styles.itemWrapper} >
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/pexels-jonathan-ochoa-7007929.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Veggie Burger</Text>
                             <View style={styles.priceBtn}>
@@ -132,7 +144,9 @@ const homeScreen = () => {
                         </View>
                     </View>
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/pexels-marcelo-oliveira-santana-6697455.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Bison Burgers</Text>
                             <View style={styles.priceBtn}>
@@ -146,7 +160,9 @@ const homeScreen = () => {
                 </View>        
                 <View style={styles.itemWrapper} >
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/pexels-natasha-filippovskaya-4394612.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Wild Salmon Burger</Text>
                             <View style={styles.priceBtn}>
@@ -158,7 +174,9 @@ const homeScreen = () => {
                         </View>
                     </View>
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/b2.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Doner kebab</Text>
                             <View style={styles.priceBtn}>
@@ -172,7 +190,9 @@ const homeScreen = () => {
                 </View>        
                 <View style={styles.itemWrapper} >
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/pexels-pixabay-315755.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Docksta shawarma</Text>
                             <View style={styles.priceBtn}>
@@ -184,7 +204,9 @@ const homeScreen = () => {
                         </View>
                     </View>
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/b3.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Sinister Smoothie</Text>
                             <View style={styles.priceBtn}>
@@ -198,7 +220,9 @@ const homeScreen = () => {
                 </View>        
                 <View style={styles.itemWrapper} >
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/pexels-alena-shekhovtcova-6941009.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Mango Momma.</Text>
                             <View style={styles.priceBtn}>
@@ -210,7 +234,9 @@ const homeScreen = () => {
                         </View>
                     </View>
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/pexels-jonathan-ochoa-7007929.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Cherri Juice</Text>
                             <View style={styles.priceBtn}>
@@ -224,7 +250,9 @@ const homeScreen = () => {
                 </View>        
                 <View style={styles.itemWrapper} >
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/b2.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Hawaiian Pizza</Text>
                             <View style={styles.priceBtn}>
@@ -236,7 +264,9 @@ const homeScreen = () => {
                         </View>
                     </View>
                     <View style={styles.items}>
-                        <View style={styles.itemImg}></View>
+                        <View style={styles.itemImg}>
+                        <Image source={require('../img/b3.jpg')}  style={styles.himg}/>
+                        </View>
                         <View style={styles.itemInfo}>
                             <Text style={styles.productName}>Mushroom Burgers</Text>
                             <View style={styles.priceBtn}>
@@ -319,6 +349,13 @@ const styles = StyleSheet.create({
 
     active: {
         backgroundColor: '#ffee99',
+    },
+
+    himg:{
+        width: "100%",
+        height: 150,
+        borderRadius: 20,
+        marginRight: 20,
     },
 
     itemImg:{

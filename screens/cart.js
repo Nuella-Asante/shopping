@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, Text, View, ScrollView, TextInput, TouchableOpacity,  } from 'react-native'
+import { StyleSheet, Text, View, ScrollView, TextInput, TouchableOpacity, Image,  } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 import { Ionicons } from '@expo/vector-icons';
 
@@ -21,7 +21,7 @@ const cart = () => {
             <ScrollView style={styles.itemsCOntainer} >
                 <View style={styles.cartItemsContainer}>
                     <View style={styles.cartItemImg}>
-                        
+                        <Image source={require('../img/b2.jpg')}  style={styles.cimg}/>
                     </View>
                     <View style={styles.cartItemInfo}>
                         <Text style={styles.productName}>Mango Momma</Text>
@@ -47,7 +47,9 @@ const cart = () => {
                     </View>
                 </View>                                 
                 <View style={styles.cartItemsContainer}>
-                    <View style={styles.cartItemImg}></View>
+                    <View style={styles.cartItemImg}>
+                    <Image source={require('../img/b3.jpg')}  style={styles.cimg}/>
+                    </View>
                     <View style={styles.cartItemInfo}>
                         <Text style={styles.productName}>Mushroom Burgers</Text>
                         <View style={styles.rating}>
@@ -71,7 +73,9 @@ const cart = () => {
                     </View>
                 </View>                                 
                 <View style={styles.cartItemsContainer}>
-                    <View style={styles.cartItemImg}></View>
+                    <View style={styles.cartItemImg}>
+                    <Image source={require('../img/pexels-daria-shevtsova-1260968.jpg')}  style={styles.cimg}/>
+                    </View>
                     <View style={styles.cartItemInfo}>
                         <Text style={styles.productName}>Hawaiian Pizza</Text>
                         <View style={styles.rating}>
@@ -143,6 +147,12 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: 'center',
     },
+    cimg:{
+        width: 110,
+        height: 120,
+        borderRadius: 20,
+        marginRight: 20,
+    },
     iconContainer:{
         width: "90%",
         flexDirection: "row",
@@ -176,8 +186,8 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff"
     },
     cartItemImg:{
-        width: "30%",
-        height: 80,
+        width: "25%",
+        height: 120,
         borderRadius: 20,
         marginRight: 20,
         backgroundColor: '#E3E9F3',
@@ -185,6 +195,7 @@ const styles = StyleSheet.create({
     cartItemInfo:{
         width: "33%",
         justifyContent: 'space-between',
+        marginLeft: 20,
     },
     cartItemBtn:{
         marginLeft: 40,
@@ -223,7 +234,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff'
     },
     applyTxt:{
-        padding: 13,
+        padding: 11,
         backgroundColor: '#ffe566',
         color: '#fff',
     },
@@ -254,6 +265,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         marginTop: 30,
+        marginBottom: 20,
     },
     checkOutBtn:{
         width:'90%',
